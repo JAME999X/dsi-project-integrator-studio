@@ -1,11 +1,11 @@
-# DSI Project Integrator Studio (A3)
-App multipágina en Streamlit para construir:
-- Project Charter + Stakeholders
-- Backlog (epics, stories, AC, prioridad, estimación)
-- Arquitectura (componentes + flujos + diagrama)
-- Gobernanza (RACI + RAID + política de datos)
-- EEE-Gate + RAGA
-- Export (MD/PDF/CSV/JSON)
-## Local
+# AI Product Ops: De Modelo a Sistema (Streamlit)
+App didáctica para obligar decisiones de diseño (trade-offs) en
+sistemas IA:
+- Framework (People/Process/Data/Tech/Policy)
+- Simulador TI vs SI (coste API vs retrabajo humano)
+- Wizard de diseño (pipeline, roles, métricas, guardrails)
+- Auditoría y reporte (SDD en Markdown/PDF)
+## Ejecutar (local)
+```bash
 pip install -r requirements.txt
 streamlit run app.py
