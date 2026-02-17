@@ -1,0 +1,5 @@
+streamlit>=1.40
+pandas>=2.0
+APP3 — DSI Project Integrator Studio (A3)
+2
+reportlab>=4.0
