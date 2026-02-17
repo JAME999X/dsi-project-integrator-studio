@@ -1,10 +1,8 @@
 import streamlit as st
 def init_state():
 ss = st.session_state
-ss.setdefault("sdd_goal", "Diseñar un sistema IA operable, medible
-y gobernable, explicitando trade-offs (Coste vs Calidad, TI vs SI).")
-ss.setdefault("pipeline_selected", ["Auth", "RAG", "Inferencia",
-"Auditoría"])
+ss.setdefault("sdd_goal", "Diseñar un sistema IA operable, medible y gobernable, explicitando trade-offs (Coste vs Calidad, TI vs SI).")
+ss.setdefault("pipeline_selected", ["Auth", "RAG", "Inferencia","Auditoría"])
 ss.setdefault("pipeline_ordered", ss["pipeline_selected"])
 ss.setdefault("roles", {
 "kill_switch_owner": "",
